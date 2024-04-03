@@ -32,22 +32,22 @@ export class Form {
     incidence:[string];
     
     @Column({type:'text'})
-    categoryOfFeedback :[string];
+    categoryOfFeedback :string;
 
-    @Column({type:'boolean'})
-    fIRP:boolean;
+    // @Column({type:'boolean'})
+    // fIRP:boolean;
 
-    @Column({type:'boolean'})
-    fIRD:boolean;
-
-    @Column({type:'text'})
-    indiThemeticeTA :[string];
+    // @Column({type:'boolean'})
+    // fIRD:boolean;
 
     @Column({type:'text'})
-    categoryOfComplaint :[string];
+    indiThemeticeTA :string;
 
     @Column({type:'text'})
-    status :[string];
+    categoryOfComplaint :string;
+
+    @Column({type:'text'})
+    status :string;
 
     @Column({type:'text'})
     instantResponse :string;
